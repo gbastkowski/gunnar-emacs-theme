@@ -1,7 +1,7 @@
-(deftheme gunnar "Created 2018-02-09.")
+(deftheme gunnar-emacs "Created 2018-02-09.")
 
 (custom-theme-set-faces
- 'gunnar
+ 'gunnar-emacs
  '(cursor ((t (:foreground "#222222" :background "green1"))))
  '(default ((t (
                 :family "MesloLGS NF"
@@ -100,4 +100,4 @@
  '(outline-7 ((t nil)))
  '(smerge-base ((t (:extend t :background "#333399")))))
 
-(provide-theme 'gunnar)
+(provide-theme 'gunnar-emacs)
